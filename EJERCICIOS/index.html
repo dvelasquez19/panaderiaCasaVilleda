@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Casa Villeda</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo">Casa Villeda</div>
+
+<div class="menu">
+
+<div class="dropdown">
+<a href="#" class="dropbtn" onclick="abrirModal('quienes')">
+Quiénes Somos
+</a>
+</div>
+
+<!-- EMPRESA -->
+
+<div class="dropdown">
+
+<a href="#" class="dropbtn">
+Acerca De  ▼
+</a>
+
+<div class="dropdown-content">
+
+<a href="#" onclick="abrirModal('mision')">
+Misión
+</a>
+
+<a href="#" onclick="abrirModal('vision')">
+Visión
+</a>
+
+</div>
+
+</div>
+
+
+<!-- DROPDOWN -->
+
+
+<div class="dropdown">
+
+<a href="#productos" class="dropbtn">
+Productos ▼
+</a>
+
+<div class="dropdown-content">
+
+<a href="#masa-madre">
+Pan de Masa Madre
+</a>
+
+<a href="#roles-canela">
+Roles de Canela
+</a>
+
+<a href="#galletas">
+Galletas
+</a>
+
+<a href="#cafe">
+Granos de Café
+</a>
+
+</div>
+
+</div>
+
+<!-- CLIENTES -->
+
+<div class="dropdown">
+
+<a href="#clientes" class="dropbtn">
+Clientes ▼
+</a>
+
+<div class="dropdown-content">
+
+<a href="#cliente1">
+Café Luna
+</a>
+
+<a href="#cliente2">
+Sweet Bakery
+</a>
+
+<a href="#cliente3">
+Coffee House
+</a>
+
+<a href="#cliente4">
+Panadería Central
+</a>
+
+</div>
+
+</div>
+
+<!-- PROVEEDORES -->
+
+<div class="dropdown">
+
+<a href="#proveedores" class="dropbtn">
+Proveedores ▼
+</a>
+
+<div class="dropdown-content">
+
+<a href="#proveedor1">
+Café Antigua
+</a>
+
+<a href="#proveedor2">
+Molinos Selectos
+</a>
+
+<a href="#proveedor3">
+Dulce Aroma
+</a>
+
+<a href="#proveedor4">
+Lácteos Premium
+</a>
+
+</div>
+
+</div>
+
+<!-- CONTACTO -->
+
+<div class="dropdown">
+
+<a href="#contacto" class="dropbtn">
+Contáctenos ▼
+</a>
+
+<div class="dropdown-content">
+
+<a href="https://www.facebook.com/share/1BdedrcXDf/?mibextid=wwXIfr" target="_blank">
+Facebook
+</a>
+
+<a href="https://www.instagram.com/casavilledagt?igsh=cjlva3J4cmhjazhu&utm_source=qr" target="_blank">
+Instagram
+</a>
+
+<a href="#contacto">
+Ubicación
+</a>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</nav>
+
+</header>
+
+<!-- MARQUEE -->
+
+<!-- INFO BAR -->
+
+<section class="info-bar">
+
+    <div class="info-item">
+
+        <span>📌</span>
+
+        <p>
+        Carne: 0900--26-5627
+        </p>
+
+    </div>
+
+    <div class="info-item">
+
+        <span>👩</span>
+
+        <p>
+        Daniela Alejandra Velásquez Paiz
+        </p>
+
+    </div>
+
+</section>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>LA DULZURA DE LA FELICIDAD</h1>
+
+<p>Los mejores postres artesanales</p>
+
+</section>
+
+<!-- PRODUCTOS -->
+
+
+ <h2 class="section-title">Nuestros Productos</h2>
+<section class="productos" id="productos">
+
+
+<div class="card" id="masa-madre">
+
+<img src="masamadre.jpeg">
+
+<h3>Pan de Masa Madre</h3>
+
+<button onclick="abrirModal('prod1')">
+Ver Más
+</button>
+
+</div>
+
+<div class="card" id="roles-canela">
+
+<img src="roles.jpeg">
+
+<h3>Roles de Canela</h3>
+
+<button onclick="abrirModal('prod2')">
+Ver Más
+</button>
+
+</div>
+
+<div class="card" id="galletas">
+
+<img src="galletas.jpeg">
+
+<h3>Galletas</h3>
+
+<button onclick="abrirModal('prod3')">
+Ver Más
+</button>
+
+</div>
+
+<div class="card" id="cafe">
+
+<img src="cafe.jpeg">
+
+<h3>Granos de Café</h3>
+
+<button onclick="abrirModal('prod4')">
+Ver Más
+</button>
+
+</div>
+
+</section>
+
+<!-- CLIENTES -->
+
+    <h2 class="section-title">Nuestros Clientes</h2>
+
+<section class="clientes-cards" id="clientes">
+
+
+
+    <div class="card-cliente" id="cliente1">
+
+        <img src="cliente1.jpeg">
+
+        <h3>Café Luna</h3>
+
+        <p>
+        Cafetería especializada en bebidas artesanales y postres gourmet.
+        </p>
+
+    </div>
+
+    <div class="card-cliente" id="cliente2">
+
+        <img src="cliente2.jpeg">
+
+        <h3>Sweet Bakery</h3>
+
+        <p>
+        Pastelería reconocida por sus productos frescos y artesanales.
+        </p>
+
+    </div>
+
+    <div class="card-cliente" id="cliente3">
+
+        <img src="cliente3.jpeg">
+
+        <h3>Coffee House</h3>
+
+        <p>
+        Cadena de cafeterías con enfoque en café premium y panadería fina.
+        </p>
+
+    </div>
+
+    <div class="card-cliente" id="cliente4">
+
+        <img src="cliente4.jpeg">
+
+        <h3>Panadería Central</h3>
+
+        <p>
+        Empresa dedicada a la elaboración de pan artesanal y repostería.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- CONTACTO -->
+
+
+
+
+<!-- CLIENTES -->
+<!-- 
+<h2 class="section-title">Clientes</h2>
+
+<section class="contacto">
+
+<button onclick="window.open('https://www.facebook.com/share/1BdedrcXDf/?mibextid=wwXIfr')">
+Facebook
+</button>
+
+<button onclick="window.open('https://www.instagram.com/casavilledagt?igsh=cjlva3J4cmhjazhu&utm_source=qr')">
+Instagram
+</button>
+
+<button onclick="abrirModal('mapa')">
+Ubicación
+</button>
+
+</section> -->
+
+<!-- PROVEEDORES -->
+
+    <h2 class="section-title">Nuestros Proveedores</h2>
+
+<section class="proveedores" id="proveedores">
+
+
+
+    <div class="card-proveedor">
+
+        <img src="proveedor1.jpeg">
+
+        <h3>Café Antigua</h3>
+
+        <p>
+        Proveedor de granos de café premium seleccionados artesanalmente.
+        </p>
+
+    </div>
+
+    <div class="card-proveedor">
+
+        <img src="proveedor2.jpeg">
+
+        <h3>Molinos Selectos</h3>
+
+        <p>
+        Harinas y materias primas de alta calidad para panadería.
+        </p>
+
+    </div>
+
+    <div class="card-proveedor">
+
+        <img src="proveedor3.jpeg">
+
+        <h3>Dulce Aroma</h3>
+
+        <p>
+        Especialistas en canela, vainilla y especias naturales.
+        </p>
+
+    </div>
+
+    <div class="card-proveedor">
+
+        <img src="proveedor4.jpeg">
+
+        <h3>Lácteos Premium</h3>
+
+        <p>
+        Productos lácteos frescos para postres y repostería artesanal.
+        </p>
+
+    </div>
+
+</section>
+
+
+    <h2 class="section-title">Contáctenos</h2>
+
+<section class="contacto" id="contacto">
+
+
+    <div class="card-contacto">
+
+        <h3>Facebook</h3>
+
+        <p>
+        Síguenos en nuestra página oficial y conoce nuestros productos.
+        </p>
+
+        <button onclick="window.open('https://www.facebook.com/share/1BdedrcXDf/?mibextid=wwXIfr')">
+        Ir a Facebook
+        </button>
+
+    </div>
+
+    <div class="card-contacto">
+
+        <h3>Instagram</h3>
+
+        <p>
+        Descubre nuestras fotografías, promociones y novedades.
+        </p>
+
+        <button onclick="window.open('https://www.instagram.com/casavilledagt?igsh=cjlva3J4cmhjazhu&utm_source=qr')">
+        Ir a Instagram
+        </button>
+
+    </div>
+
+    <div class="card-contacto">
+
+        <h3>Ubicación</h3>
+
+        <p>
+        Encuéntranos fácilmente y visita nuestra panadería artesanal.
+        </p>
+
+        <button onclick="abrirModal('mapa')">
+        Ver Ubicación
+        </button>
+
+    </div>
+
+</section>
+
+<!-- MODAL -->
+
+<div id="modal" class="modal">
+
+<div class="modal-content">
+
+<span class="close" onclick="cerrarModal()">&times;</span>
+
+<div id="contenidoModal"></div>
+
+</div>
+
+</div>
+
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-contenido">
+
+<h3>Casa Villeda</h3>
+
+
+<p>
+La dulzura de la felicidad en cada detalle.
+</p>
+
+<p class="copyright">
+© 2026 Casa Villeda - Todos los derechos reservados
+<br>
+<h2>Y conoceréis la verdad y la verdad os hará libres</h2>
+
+</p>
+
+</div>
+
+</footer>
+
+<script src="script.js"></script>
+<SCript>
+
+    
+</SCript>
+
+<!-- MUSICA -->
+
+<audio autoplay loop>
+
+    <source src="musica.mp3" type="audio/mpeg">
+
+</audio>
+
+</body>
+</html>
