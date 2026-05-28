@@ -56,7 +56,7 @@ function abrirModal(tipo){
         <h2>Misión</h2>
 
         <p>
-        Brindar felicidad y momentos especiales a nuestros clientes mediante productos artesanales frescos, elaborados con dedicación, calidad y pasión.
+        Nuestra misión es brindar a nuestros clientes productos artesanales frescos y de alta calidad, elaborados con dedicación, creatividad y amor por la panadería. En Casa Villeda buscamos crear momentos especiales a través de sabores únicos, ofreciendo panes, postres y bebidas que transmitan calidez y felicidad en cada detalle. Queremos que cada persona que nos visite pueda sentirse cómoda y disfrutar de un ambiente agradable acompañado
         </p>
 
         `;
@@ -71,7 +71,7 @@ function abrirModal(tipo){
         <h2>Visión</h2>
 
         <p>
-        Ser una pastelería reconocida por la excelencia de nuestros productos y por crear experiencias únicas para nuestros clientes.
+       Nuestra visión es convertirnos en una panadería reconocida por la calidad y dedicación de nuestros productos artesanales, creando experiencias únicas para cada cliente. En Casa Villeda queremos ser un lugar donde las personas puedan disfrutar momentos especiales en un ambiente cálido y agradable, destacándonos por nuestra creatividad, sabor y excelente atención. Buscamos seguir creciendo y llegar a más personas, manteniendo siempre la esencia artesanal y el amor con el que elaboramos cada uno de nuestros productos.
         </p>
 
         `;
